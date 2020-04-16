@@ -6,7 +6,7 @@ public class HW1Test {
         track.run(new Cat());
         track.run(new Human());
         track.run(new Robot());
-        Barrier barrier = new Barrier(10);
+        Barrier barrier = new Barrier(1);
         barrier.jump(new Cat());
         barrier.jump(new Human());
         barrier.jump(new Robot());
